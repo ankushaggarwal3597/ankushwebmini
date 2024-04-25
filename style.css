@@ -1,0 +1,957 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.topele
+{
+    background-color: black;
+    color: white;
+    height: 5vh;
+    text-align: center;
+    padding-top: 3vh;
+}
+.maincontent
+{
+    width: 60%;
+    display: flex;
+    margin-left: 55px;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.textbehind
+{
+    font-weight: bold;
+}
+.topele a
+{
+    color: white;
+}
+.rightlink
+{
+    display: flex;
+    float: right;
+    margin-right: 85px;
+}
+.Footer
+{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Five
+{
+    text-align: left;
+    width: 25%;
+    float: left;
+    color: white;
+}
+.Five>ul
+{
+    padding-top: 25px;
+    list-style: none;
+    padding-left: 40px;
+    font-size: x-large;
+}
+.Five>ul>li
+{
+    padding-bottom: 20px;
+}
+#send
+{
+    background:none;
+    color: white;
+    border: none;
+}
+#mail1
+{
+    background: none;
+    color: white;
+    border: none;
+    border-bottom:  solid thin #ffffff;
+    line-height: 25px;
+}
+.butt
+{
+    border-radius: 2px;
+    border-color: white;
+}
+#copy
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: gainsboro;
+}
+h4
+{
+    font-weight: 100;
+    color: rgba(219, 68, 68, 1);
+}
+.navbar
+{
+    display: flex;
+    background-color: white;
+    padding-top: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(221, 211, 211);
+    height: 10vh;
+}
+.navitems
+{
+    padding-left: 20px;
+}
+.navitems a
+{
+    color: black;
+    text-decoration: none;
+}
+.navitems:hover
+{
+    text-decoration: underline;
+}
+.icons
+{
+    margin-top: 1vh;
+    display: flex;
+    float: right;
+}
+.leftnavitem
+{
+    margin-left: 14vh;
+    margin-top: 1vh;
+    font-weight: bold;
+    font-size: 30px;
+}
+.search-box {
+    position: relative;
+    float: right;
+}
+.search-input
+{
+    padding: 10px;
+    padding-right: 30px;
+}
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+    pointer-events: none;
+    cursor: pointer;
+}
+.leftbar
+{
+    padding-left: 45px;
+    width: fit-content;
+    box-shadow: 2px 0px 2px 0px rgb(221, 211, 211);   
+}
+.leftbaritem
+{
+    padding-top: 25px;
+    padding-right: 50px;
+}
+#healthandbeauty
+{
+    padding-bottom: 40px;
+}
+.animationbar
+{
+    display: flex;
+}
+.incarttexthead
+{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+.incarttextprice
+{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+}
+.incarttext
+{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+.bestselltext
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+}
+#gamelabel
+{
+    font-weight: bold;
+}
+.animationcontent
+{
+    position: relative;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 85px;
+    overflow: hidden;
+}
+.secondsection
+{
+    box-shadow: 5px 0px 5px 0px rgb(221, 211, 211);      
+}
+.timer
+{
+    margin-top: 50px;
+    border-left: 15px solid red;
+    width: fit-content;
+    margin-left: 40px;
+    font-size: 24px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+.timercontent
+{
+    display: flex;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#countdown
+{
+    margin-left: 65px;
+    margin-right: 100px;
+}
+.incart
+{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.incartitems
+{
+    position: relative; 
+    overflow: hidden; 
+    background-color: rgb(241, 235, 235);
+    margin-right: 15px;
+    width: 20%;
+}
+.addtocart {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    opacity: 0;/* Initially hide the button */
+    transition: opacity 0.3s ease;
+}
+
+.incartitems:hover .addtocart {
+    cursor: pointer;
+    opacity: 1; /* Show the button on hover */
+}
+.viewallbutton
+{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.navbutton
+{
+    margin-left:325px;
+    width: 60%;
+    text-align: right;
+    float: right;   
+}
+#backButton,
+#forwardButton {
+    margin-left: 5px;
+    background-color: rgb(241, 235, 235);
+    padding: 10px;
+    border-radius: 25px;
+}
+#backButton:hover
+{
+    cursor: pointer;
+}
+#forwardButton:hover
+{
+    cursor: pointer;
+}
+#backButton_categ,
+#forwardButton_categ {
+    margin-left: 5px;
+    background-color: rgb(241, 235, 235);
+    padding: 10px;
+    border-radius: 25px;
+}
+#backButton_categ:hover
+{
+    cursor: pointer;
+}
+#forwardButton_categ:hover
+{
+    cursor: pointer;
+}
+#viewprobutton
+{
+    width: 200px;
+    padding: 15px;
+    background-color: rgb(228, 58, 58);
+    color: white;
+    margin-bottom: 20px;
+}
+#viewprobutton:hover
+{
+    cursor: pointer;
+}
+.thirdsection
+{
+    box-shadow: 5px 0px 5px 0px rgb(221, 211, 211);     
+}
+.cateogary
+{
+    margin-top: 50px;
+    border-left: 15px solid red;
+    width: fit-content;
+    margin-left: 40px;
+    font-size: 24px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+.cateogarycontent
+{
+    display: flex;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.cateogarycart
+{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;   
+}
+.cateogaryitems
+{
+    margin-right: 15px;
+    width: 20%;
+}
+.fourthsection
+{
+    box-shadow: 5px 0px 5px 0px rgb(221, 211, 211);        
+}
+.Bestseller
+{
+    margin-top: 50px;
+    border-left: 15px solid red;
+    width: fit-content;
+    margin-left: 40px;
+    font-size: 24px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;   
+}
+.bestsellercontent
+{
+    display: flex;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;   
+}
+.bestsellcart
+{
+    display: flex;
+    justify-content: center; 
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.subsec
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.bestsellitems
+{
+    cursor: pointer;
+    position: relative; 
+    overflow: hidden; 
+    background-color: rgb(241, 235, 235);
+    margin-right: 15px;
+    width: 15%; 
+    max-width: 300px; 
+    text-align: center; 
+    padding: 10px;
+}
+.bestsellitems:hover .addtocart {
+    cursor: pointer;
+    opacity: 1; /* Show the button on hover */
+}
+.btnsell
+{
+    margin-left:50px;
+    width: 60%;
+    text-align: right;
+    float: right;      
+}
+#bestsellbtn
+{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(228, 58, 58);
+    color: white;
+    margin-bottom: 20px;
+}
+.image
+{
+    width:95%;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+.ourproducts
+{
+    margin-top: 50px;
+    border-left: 15px solid red;
+    width: fit-content;
+    margin-left: 40px;
+    font-size: 24px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;   
+}
+.ourproductscontent
+{
+    display: flex;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;      
+}
+.sixthsection
+{
+   box-shadow: 5px 0px 5px 0px rgb(221, 211, 211);
+}
+.sixthsectioncontent
+{
+    display: flex;
+}
+.featurecontent
+{
+    margin-top: 20px;
+    margin-left: 60px;   
+    width: 20%;
+}
+.featurecontent img
+{
+    height: auto;
+    width: 100%;
+}
+.featurecontentright img
+{
+    width: 100%;
+}
+.featurecontentright
+{
+   
+    margin-top: 20px;
+    margin-left: 40px;   
+    width: 30%;
+}
+.rightfeature
+{
+    display: block;
+}
+.ourproductscontent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.row {
+    display: none;
+}
+
+.row:first-child {
+    display: flex;
+}
+
+.ourproductitems
+{
+    position: relative; 
+    overflow: hidden; 
+    background-color: rgb(241, 235, 235);
+    margin-right: 15px;
+    width: 20%;
+}
+.ourproductitems:hover .addtocart {
+    cursor: pointer;
+    opacity: 1; /* Show the button on hover */
+}
+.navbutton {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#leftArrow,
+#rightArrow {
+    margin-left: 5px;
+    background-color: rgb(241, 235, 235);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#leftArrow:hover,
+#rightArrow:hover {
+    cursor: pointer;
+}
+.ourproductcart
+{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.imagesanimate
+{
+    width: 100em;
+    height: auto; 
+    /*display: block; 
+    margin: 0 auto;*/ 
+}
+.gamingimg
+{
+    margin-top: 3.6em;
+    padding: 10px;
+    width: 90%;
+    height: auto;
+}
+#gamingpc
+{
+    margin-top: 1.2em;
+}
+.leftbaritem:hover
+{
+    text-decoration: underline;
+}
+#chairsec
+{
+    margin-top: 1.2em;
+    width: 68%;
+    padding: 0;
+}
+#jacketsize
+{
+    margin-top: 2.3em;
+}
+.cateogarysize
+{
+    width: 75%;
+    border-radius: 25px;
+    margin-left:20px;
+}
+#bagsize
+{
+    padding: 0.1em;
+    width: 90%;
+}
+#bag2size
+{
+    margin-top: 0.9em;
+    padding: 1.4em;
+    width: 72%;
+}
+#image1
+{
+    width: 45%;
+}
+#image2
+{
+    width: 40%;
+}
+.cateogaryitems {
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 5px 0px 5px 0px rgb(221, 211, 211);
+}
+.animationcontent {
+    width: 70%;
+    margin: 20px auto;
+}
+#image1
+{
+    width: 100%;
+}
+#image2
+{
+    width: 100%;
+}
+#image3
+{
+    width: 100%;
+}
+.imagesanimate {
+    width: 100%;
+    height: 25em;
+}
+.incartitems,
+.ourproductitems,
+.bestsellitems {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.bestsellitems img
+{
+    width: 60%;
+    height: auto;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+.featurecontent,
+.featurecontentright {
+    width: 45%;
+    margin: 20px;
+}
+.ourproductitems,
+.bestsellitems {
+    width: 250px; 
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.ourproductsize{
+    width: 90%;
+    height: auto;
+}
+#dogfood
+{
+    width: 60%;
+    padding-top: 2.0em;
+}
+#camera
+{
+    margin-top: 2.1em;
+    width: 82%;
+}
+.animationcontent:hover
+{
+    cursor: pointer;
+}
+#bestsellbtn:hover
+{
+    cursor: pointer;
+}
+.featurecontent:hover
+{
+    cursor: pointer;
+}
+.featurecontentright:hover
+{
+    cursor: pointer;
+}
+.image:hover
+{
+    cursor: pointer;
+}
+#laptopsize
+{
+    padding-top: 4.0em;
+    width: 85%;
+}
+.leftbaritem  a
+{
+    text-decoration: none;
+    color: black;
+}
+#setsize
+{
+    padding-top: 3.5em;
+}
+#carsize
+{
+    width: 90%;
+    padding-top: 3em;
+}
+.checked {
+    color: orange;
+  }
+#consolesize
+{
+    width: 80%;
+    padding-top: 2.5em;   
+}
+.sixthsectioncontent {
+    display: flex;
+}
+#footerright
+{
+    margin-top: 0.5em;
+    padding-right: 3em;
+}
+
+.featurecontent {
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 50%;
+}
+.rightfeature {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.featurecontentright {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: calc(100% - 70px);
+}
+#logobet
+{
+    width: 78%;
+   
+}
+#logothird
+{
+    width: 73%;
+    
+}
+.seventhsection
+{
+    margin-top: 70px;
+    margin-bottom: 15%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#localshipping,
+#headsetmic,
+#verifieduser {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.logoimage1
+{
+    width:65%;
+}
+.seventhobhitems
+{
+    margin-right: 12px;
+    text-align: center;
+}
+.sameline
+{
+    display: flex;
+}
+.iconover
+{
+    float: right;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.iconcontainer
+{
+    float: right;
+    display: block;
+}
+.cateogaryitems:hover
+{
+    background-color: rgb(207, 43, 43);
+    cursor: pointer;
+    color: white;
+}
+.subsection
+{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.texthover
+{
+    font-size: 25px;
+    text-align: center;
+    font-style: bold;
+    background-color: black;
+    color: white;
+    display: none;
+}
+.incartitems,
+.incartitems:hover
+{
+    cursor: pointer;
+    display:flex;
+}
+#imagepen
+{
+
+    padding: 0px;
+    margin-top: 0px;
+    width: 90%;
+    background-color: rgb(241, 235, 235);
+}
+@media screen and (max-width: 1024px) {
+    .maincontent {
+        width: 80%; 
+        margin-left: 10px; 
+    }
+    .leftnavitem
+    {
+        margin: 8px;
+    }
+    .navbutton
+    {
+        margin-left: 3em;
+    }
+    .image
+    {
+        width: 90%;
+    }
+    .bestsellitems {
+        width: calc(100% - 20%); /* Adjusted width for screens <= 768px */
+        margin-right: 0;
+    }
+    .incartitems
+    {
+        width: calc(100% - 25%); /* Adjusted width for screens <= 768px */
+        margin-right: 0;
+    }
+    .ourproductitems
+    {
+        width: calc(100% - 30%); /* Adjusted width for screens <= 768px */
+        margin-right: 0;
+    }
+    #bestsellbtn
+    {
+        margin-right: 2em;
+    }
+    .gamingimg
+    {
+        width: 90%;
+        padding: 1em;
+        margin-top: 42%;
+    }
+    #gamingpc
+    {
+        padding-top: 3em;
+        width: 90%;
+    }
+    #chairsec
+    {
+        padding-top: 25%;
+        width: 90%;
+    }
+    #imagepen
+    {
+        margin-bottom: 3em;
+        padding-top: 38%;
+        width: 100%;
+    }
+    #gamingconsole
+    {
+        margin-bottom: 3em;
+        padding-top: 38%;
+        width: 60%;
+    }
+    #jacketsize
+    {
+        margin-bottom: 1em;
+        padding-top: 8%;
+        width: 85%;
+    }
+    #bag2size
+    {
+        margin-bottom: 3em;
+        padding-top: 12%;
+        width: 85%;
+    }
+    #bagsize
+    {
+        margin-bottom: 5em;
+        padding-top: 25%;
+        width: 100%;
+    }
+    #bookshelfsize
+    {
+        padding-top: 5%;
+        width: 100%;
+    }
+    #dogfood
+    {
+        margin-bottom: 1em;
+        padding-top: 15%;
+        width: 100%;
+    }
+    #camera
+    {
+        margin-bottom: 1em;
+        padding-top: 2%;
+        width: 100%;
+    }
+    #laptopsize
+    {
+        margin-bottom: 3em;
+        padding-top: 1%;
+        width: 100%;
+    }
+    #setsize
+    {
+        margin-bottom: 3em;
+        padding-top: 10%;
+        width: 100%;
+    }
+    .ourproductsize
+    {
+        padding-top: 5%;
+        margin-bottom: 2em;
+        width: 100%;
+    }
+    #consolesize
+    {
+        padding-top: 10%;
+        margin-bottom: 3em;
+        width: 100%;
+    }
+    .Footer li
+    {
+        font-size: medium;
+        font-weight:400;
+    }
+}
+@media screen and (max-width: 480px) {
+    .maincontent {
+        width: 95%; 
+        margin-left: 5px; 
+    }
+}
